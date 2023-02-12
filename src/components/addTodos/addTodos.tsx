@@ -1,11 +1,11 @@
 import { component$ } from "@builder.io/qwik";
 
 export default component$(() => {
-  const handleFormSubmit = (event: FormDataEvent) => {
-    console.log("event", event);
-  };
+  //   const handleFormSubmit = (event: FormDataEvent) => {
+  //     console.log("event", event);
+  //   };
   return (
-    <form class="mt-3 flex flex-col gap-4" onSubmit$={handleFormSubmit()}>
+    <form class="mt-3 flex flex-col gap-4">
       <input
         type="text"
         name="todo"
